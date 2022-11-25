@@ -18,10 +18,10 @@ if st.button("Select"):
         option  = randrange(2)
         if option==0:
             noption1=noption1+1
-            #st.title(option1)
+            st.info(option1)
         else:
             noption2=noption2+1
-            #st.title(option2)
+            st.warning(option2)
     
     if noption1>noption2:
         st.title(f'{option1} ({noption1} out of  {n})')
